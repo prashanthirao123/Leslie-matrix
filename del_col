@@ -1,0 +1,18 @@
+% Delete the one by one column of a 
+a=[1 2 3 4 5; 2 3 4 5 6; 3 4 5 6 7; 4 5 6 7 8; 5 6 7 8 9];
+% Delete the first column of a 
+a(:,1)=[] %returns [2 3 4 5; 3 4 5 6; 4 5 6 7; 5 6 7 8; 6 7 8 9]
+% Delete the second column of a 
+a(:,2)=[] %returns [2  4 5; 3  5 6; 4  6 7; 5  7 8; 6  8 9]
+% Delete the second column of a 
+a(:,3)=[]  %returns [2  4 ; 3  5 ; 4  6 ; 5  7 ; 6  8 ]
+% Delete the first row of the matrix
+a(1,:)=[]   %returns [3  5 ; 4  6 ; 5  7 ; 6  8 ]
+% Delete the second row of the matrix 
+a(2,:)=[]   %returns [4  6 ; 5  7 ; 6  8 ]
+% Delete the second row of the matrix
+a(2,:)=[]   %returns [4  6 ; 6  8 ]
+% Delete the third row of the matrix
+a(3,:)=[]   %returns [ 4  6 ; 5  7 ]
+% Delete the fourth row of the matrix
+a(4,:)=[]   %returns [ 5  7  ]
