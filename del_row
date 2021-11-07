@@ -1,0 +1,7 @@
+delete the fourth row of a 4x4 matrix
+a=[1 2 3 4; 2 3 4 5; 3 4 5 6; 4 5 6 7];
+a(3,:)=[] % ans [1 2 3 4; 2 3 4 5; 4 5 6 7]
+delete the first row of a 4x4 matrix
+a(1,:)=[] % Ans[2 3 4 5; 4 5 6 7]
+delete the second row of a 4x4 matrix
+a(2,:)=[] %Ans:2 3 4 5
